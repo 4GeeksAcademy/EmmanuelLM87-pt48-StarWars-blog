@@ -1,0 +1,11 @@
+.scrollflow{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.contenedor-app p {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: red;
+    padding: 1%;
+}
