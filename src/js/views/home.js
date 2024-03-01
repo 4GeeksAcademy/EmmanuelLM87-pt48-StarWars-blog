@@ -12,7 +12,7 @@ export const Home = () => {
 
 	return (
 		<div className="contenedor-app">
-			<p>Personajes</p>
+			<p>Characters</p>
 			<div className="contenedor-personajes scrollflow">
 				{
 					store.personajes.map((personaje, index) => {
@@ -24,7 +24,7 @@ export const Home = () => {
 					})
 				}
 			</div>
-			<p>Vehículos</p>
+			<p>Vehicles</p>
 			<div className="contenedor-vehiculos scrollflow">
 				{
 					store.vehiculos.map((vehiculo, index) => {
@@ -36,7 +36,7 @@ export const Home = () => {
 					})
 				}
 			</div>
-			<p>Planetas</p>
+			<p>Planets</p>
 			<div className="contenedor-planetas scrollflow">
 				{
 					store.planetas.map((planeta, index) => {
